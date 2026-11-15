@@ -13,3 +13,4 @@ data/raw/*.csv
 data/processed/*
 !data/processed/.gitkeep
 dataset/
+outputs/results/run_log.txt
