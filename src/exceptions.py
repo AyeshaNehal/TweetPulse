@@ -1,11 +1,4 @@
 # Owner: Mohsina Zeeshan (Lab 06)
 
-import os
-import csv
-import json
-from datetime import datetime
-
-import pandas as pd
-import requests
-
-from exceptions import DataLoadError
+class DataLoadError(Exception):
+    """Raised when the dataset or the API cache cannot be loaded."""
