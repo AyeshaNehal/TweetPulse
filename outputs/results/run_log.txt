@@ -1,0 +1,2 @@
+[2026-11-17 18:45:17] Loaded train.csv: 27481 rows x 10 columns
+[2026-11-17 18:49:49] Loaded train.csv: 27481 rows x 10 columns
