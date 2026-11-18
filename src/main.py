@@ -280,6 +280,7 @@ def run_pipeline():
                 continue
 
             try:
+                
                 evaluate.score_best_model_on_test_csv(state["best_model"])
             except DataLoadError as e:
                 print(f"\n[Error] {e}")
