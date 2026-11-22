@@ -32,9 +32,31 @@ NON_LETTER_PATTERN = re.compile(r"[^a-z\s]")
 
 _SPECIAL_NEGATIONS = [
     (r"\bwon't\b", "will not"),
-    (r"\bcan't\b", "can not"),
+    (r"\bcan't\b", "cannot"),
     (r"\bshan't\b", "shall not"),
     (r"\bain't\b", "is not"),
+
+    (r"\bdon't\b", "do not"),
+    (r"\bdoesn't\b", "does not"),
+    (r"\bdidn't\b", "did not"),
+
+    (r"\bisn't\b", "is not"),
+    (r"\baren't\b", "are not"),
+    (r"\bwasn't\b", "was not"),
+    (r"\bweren't\b", "were not"),
+
+    (r"\bhaven't\b", "have not"),
+    (r"\bhasn't\b", "has not"),
+    (r"\bhadn't\b", "had not"),
+
+    (r"\bshouldn't\b", "should not"),
+    (r"\bwouldn't\b", "would not"),
+    (r"\bcouldn't\b", "could not"),
+    (r"\bmustn't\b", "must not"),
+    (r"\bneedn't\b", "need not"),
+    (r"\bdaren't\b", "dare not"),
+
+    (r"\bn't\b", " not"),
 ]
 
 _stopword_cache = None

@@ -1,11 +1,11 @@
 {
-  "fetched_at": "2026-11-18T16:36:15",
+  "fetched_at": "2026-11-22T12:49:20",
   "source": "https://hacker-news.firebaseio.com/v0/topstories.json",
   "headlines": [
-    "Codeberg.org Not Reachable",
-    "Java4Shell: RCE in OpenJDK when processing Base64",
-    "Google's AI answers reducing search traffic by 40%",
-    "ID.me terms required for IRS sign-in",
-    "Quad9's withdrawal from France: A canary in the coal mine"
+    "Toyota, Nissan, and Honda to standardize parts to lower costs",
+    "Pill to treat pancreatic cancer hailed as 'biggest breakthrough in decades'",
+    "AI Supply Chain Security: What Canary Tokens Found",
+    "Lean verification of the Riemann Hypothesis",
+    "Show HN: The Riemann Proof Handbook"
   ]
 }
