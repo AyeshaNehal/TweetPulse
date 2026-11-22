@@ -9,21 +9,3 @@
 [2026-11-18 16:36:33] Saved 3534 predictions to predictions.csv
 [2026-11-18 16:36:33] Scored Logistic Regression (TF-IDF Unigrams) on test.csv (3534 rows)
 [2026-11-18 16:36:51] Application exited normally.
-[2026-11-19 01:32:46] Application started.
-[2026-11-19 01:33:30] Loaded train.csv: 27481 rows x 10 columns
-[2026-11-19 01:34:41] Model comparison completed. Best model: Logistic Regression (TF-IDF Unigrams) (F1=0.6876)
-[2026-11-19 01:36:11] Fetched 5 live headlines; cache updated
-[2026-11-19 01:36:14] Loaded test.csv: 3534 rows x 9 columns
-[2026-11-19 01:36:19] Saved 3534 predictions to predictions.csv
-[2026-11-19 01:36:19] Scored Logistic Regression (TF-IDF Unigrams) on test.csv (3534 rows)
-[2026-11-19 01:36:20] Application exited normally.
-[2026-11-22 12:44:55] Application started.
-[2026-11-22 12:45:01] Application exited normally.
-[2026-11-22 12:45:16] Application started.
-[2026-11-22 12:45:19] Loaded train.csv: 27481 rows x 10 columns
-[2026-11-22 12:47:09] Model comparison completed. Best model: Logistic Regression (TF-IDF Unigrams) (F1=0.6876)
-[2026-11-22 12:49:20] Fetched 5 live headlines; cache updated
-[2026-11-22 12:49:56] Loaded test.csv: 3534 rows x 9 columns
-[2026-11-22 12:49:59] Saved 3534 predictions to predictions.csv
-[2026-11-22 12:49:59] Scored Logistic Regression (TF-IDF Unigrams) on test.csv (3534 rows)
-[2026-11-22 12:50:19] Application exited normally.
