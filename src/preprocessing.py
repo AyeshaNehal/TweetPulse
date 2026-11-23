@@ -1,5 +1,5 @@
 # Owner: M. Hamdan (Labs 03, 04, 12)
-
+import os
 import re
 from collections import Counter
 
@@ -195,6 +195,14 @@ def demo_cleaning():
         print("AFTER :", clean_text(s))
         print()
 
+def save_processed(df, path=None):
+    """Save the cleaned DataFrame to data/processed/train_clean.csv."""
+    if path is None:
+        root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+        path = os.path.join(root, "data", "processed", "train_clean.csv")
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    df[["text", "sentiment", "clean_text"]].to_csv(path, index=False)
+    return path
 
 if __name__ == "__main__":
     demo_cleaning()

@@ -10,7 +10,7 @@ state tracking between stages, and end-to-end integration of all lab manual and 
 import sys
 import os
 import pandas as pd
-
+from preprocessing import save_processed
 import data_loader
 import preprocessing
 import numpy_ops
@@ -101,6 +101,9 @@ def run_pipeline():
                 print(f"  - Missing removed    : {rep.get('missing_removed', 0)}")
                 print(f"  - Duplicates removed : {rep.get('duplicates_removed', 0)}")
                 print(f"  - Bad labels removed : {rep.get('bad_labels_removed', 0)}")
+                processed = preprocessing.add_clean_column(state["df_clean"])
+                path = save_processed(processed)
+                print(f"Cleaned data saved to {path}")
             except DataLoadError as e:
                 print(f"\n[Error] {e}")
 

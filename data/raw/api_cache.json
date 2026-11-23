@@ -1,11 +1,11 @@
 {
-  "fetched_at": "2026-11-22T12:49:20",
+  "fetched_at": "2026-11-23T09:17:24",
   "source": "https://hacker-news.firebaseio.com/v0/topstories.json",
   "headlines": [
-    "Toyota, Nissan, and Honda to standardize parts to lower costs",
-    "Pill to treat pancreatic cancer hailed as 'biggest breakthrough in decades'",
-    "AI Supply Chain Security: What Canary Tokens Found",
-    "Lean verification of the Riemann Hypothesis",
-    "Show HN: The Riemann Proof Handbook"
+    "Free alternative TV network built from the Internet Archive's forgotten videos",
+    "Masullo on the Riemann Hypothesis",
+    "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
+    "The Birds of GTA 6: A Field Guide to Vice City and Leonida's Wildlife",
+    "Cathedral floor emerges in Sudan, revealing one of the biggest medieval churches"
   ]
 }
